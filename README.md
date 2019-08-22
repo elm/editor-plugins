@@ -1,4 +1,4 @@
-# Elm Editor Plugins
+# Editor Plugins for Elm
 
 Elm users should have a consistent and pleasant experience across a broad range of editors.
 
@@ -10,7 +10,7 @@ A core team member has reviewed each of the plugins listed here to make sure it 
 
 <br/>
 
-## Verified Editor Plugins
+## Plugins
 
 **Sublime Text**
 
