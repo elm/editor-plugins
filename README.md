@@ -4,6 +4,10 @@ Elm users should have a consistent and pleasant experience across a broad range 
 
 A core team member has reviewed each of the plugins listed here to make sure it matches [the specifications](specifications.md) and has good performance.
 
+**If you are new to Elm**, just start with the **Elm Syntax Highlighting** plugin.
+
+**If you do not have a code editor yet**, I like using [Sublime Text](https://www.sublimetext.com/) with [these settings](https://gist.github.com/evancz/1eef86cc99632e15a8f4d793bbda3d1f).
+
 <br/>
 
 ## Verified Editor Plugins
