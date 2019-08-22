@@ -91,8 +91,8 @@ That is currently done by building editor plugins around high quality command li
 
 So if people want more plugins listed in this repo, proceed by working on a command line tool first. Possible designs include:
 
-- [`elm-find`](https://github.com/elm/projects/blob/master/elm-find.md)
-- [`elm-refactor`](https://github.com/elm/projects/blob/master/elm-refactor.md)
+- [`elm-find`](https://github.com/elm/projects/#elm-find)
+- [`elm-refactor`](https://github.com/elm/projects/#elm-refactor)
 
 The benefit of working on command line tools are (1) they can focus on performance, (2) they will not have a permanent memory overhead, (3) they promote consistency across editor plugins, and (4) they can be used even if there is no corresponding editor plugin.
 
