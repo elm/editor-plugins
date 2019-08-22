@@ -4,6 +4,7 @@ Elm users should have a consistent and pleasant experience across a broad range 
 
 A core team member has reviewed each of the plugins listed here to make sure it is performant and cosistent with the community guidelines.
 
+<br/>
 
 ## Verified Editor Plugins
 
@@ -13,6 +14,7 @@ A core team member has reviewed each of the plugins listed here to make sure it 
   - [Elm Format on Save](https://github.com/evancz/elm-format-on-save)
 
 
+<br/>
 
 ## Adding Plugins to the List
 
@@ -20,14 +22,15 @@ The goal of this project is to promote consistency and quality in Elm editor plu
 
 There are specifications for three types of plugins:
 
-- [Elm Syntax Highlighting](plugin-specifications.md#elm-syntax-highlighting) - Just add syntax highlighting. Must look good with the default color theme of the editor. Must have excellent install instructions.
-- [Elm Format on Save](plugin-specifications.md#elm-format-on-save) - Run `elm-format` on save. Must run _before_ buffer is saved to disk.
-- [Elm Make this file](plugin-specifications.md#elm-make-this-file) - Run `elm make --output=/dev/null` on the current file. Must be triggered by keyboard shortcut. Must not run on save.
+- [Elm Syntax Highlighting](specifications.md#elm-syntax-highlighting) - Just add syntax highlighting. Must look good with the default color theme of the editor. Must have excellent install instructions.
+- [Elm Format on Save](specifications.md#elm-format-on-save) - Run `elm-format` on save. Must run _before_ buffer is saved to disk.
+- [Elm Make this file](specifications.md#elm-make-this-file) - Run `elm make --output=/dev/null` on the current file. Must be triggered by keyboard shortcut. Must not run on save.
 
 It is fine to have other plugins as well, but that should be in addition to these core three that are focused on speed, reliability, and simplicity.
 
-If you are interested in creating one of these plugins for an editor, check out [the complete specifications](plugin-specifications.md)!
+If you are interested in creating one of these plugins for an editor, check out [the complete specifications](specifications.md)!
 
+<br/>
 
 ## Future Work
 
