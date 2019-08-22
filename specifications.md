@@ -1,19 +1,16 @@
 # Specifications
 
-There are currently specifications for three types of plugins:
+The goal of these specifications is to manifest the following design aesthetic:
+
+**Great performance. Pleasant defaults. Minimal configuration.**
+
+There are currently specifications for three separate plugins:
 
 - [Elm Syntax Highlighting](#elm-syntax-highlighting) - Just add syntax highlighting.
 - [Elm Format on Save](#elm-format-on-save) - Run `elm-format` on save.
 - [Elm Make this file](#elm-make-this-file) - Run `elm make` on the current file.
 
-It is fine to create other plugins, but that should be in addition to the core three specified here.
-
-The goals of having clear specifications like this include:
-
-- Easy for beginners to get started with just Elm Syntax Highlighting.
-- Easy for people to switch between editors.
-- User experience is a strict improvement over command line equivalent.
-- Performance is excellent. Operations are in the <300ms range.
+We get some worthwhile benefits by separating out the functionality. First, beginners can start with Elm Syntax Highlighting and not have to worry about their `PATH` at all. Second, plugins are more likely to be stable and reliable thanks to their smaller scope. If one plugin is messed up, it is easy to remove it or swap it out with an alternative.
 
 
 <br/>
@@ -92,9 +89,11 @@ Any future specifications should maintain the following design aesthetic:
 
 That is currently done by building editor plugins around high quality command line tools. Starting with command line tools encourages implementations that are focused, performant, and well-designed.
 
-So if people want more features in editors, it may make sense to work on command line tools first. Some ideas I have in mind are:
+So if people want more plugins listed in this repo, proceed by working on a command line tool first. Possible designs include:
 
 - [`elm-find`](https://github.com/elm/projects/blob/master/elm-find.md)
 - [`elm-refactor`](https://github.com/elm/projects/blob/master/elm-refactor.md)
 
 The benefit of working on command line tools are (1) they can focus on performance, (2) they will not have a permanent memory overhead, (3) they promote consistency across editor plugins, and (4) they can be used even if there is no corresponding editor plugin.
+
+Once things like this exist, we can evaluate if it is possible to create a nice specification for any editor integrations.
