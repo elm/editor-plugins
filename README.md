@@ -18,6 +18,4 @@ A core team member has reviewed each of the plugins listed here to make sure it 
 
 ## Adding Plugins to the List
 
-The goal of this project is to promote consistency and quality in Elm editor plugins, so plugins must meet [these specifications](specifications.md) to be listed here.
-
-Once you have a plugin that meets the specifications, open a PR here adding it to the list above.
+The goal of this project is to promote consistency and quality in Elm editor plugins, so plugins must meet [these specifications](specifications.md) to be listed here. Once you have a plugin that meets the specifications, open a PR here adding it to the list above.
