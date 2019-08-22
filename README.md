@@ -2,7 +2,7 @@
 
 Elm users should have a consistent and pleasant experience across a broad range of editors.
 
-A core team member has reviewed each of the plugins listed here to make sure it is performant and cosistent with the community guidelines.
+A core team member has reviewed each of the plugins listed here to make sure it matches [the specifications](specifications.md) and has good performance.
 
 <br/>
 
