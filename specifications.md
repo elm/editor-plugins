@@ -1,4 +1,24 @@
-# Elm Syntax Highlighting
+# Specifications
+
+There are currently specifications for three types of plugins:
+
+- [Elm Syntax Highlighting](#elm-syntax-highlighting) - Just add syntax highlighting.
+- [Elm Format on Save](#elm-format-on-save) - Run `elm-format` on save.
+- [Elm Make this file](#elm-make-this-file) - Run `elm make` on the current file.
+
+It is fine to create other plugins, but that should be in addition to the core three specified here.
+
+The goals of having clear specifications like this include:
+
+- Easy for beginners to get started with just Elm Syntax Highlighting.
+- Easy for people to switch between editors.
+- User experience is a strict improvement over command line equivalent.
+- Performance is excellent. Operations are in the <300ms range.
+
+
+<br/>
+
+## Elm Syntax Highlighting
 
 **MUST** look nice with default color theme of the editor.
 
@@ -12,7 +32,8 @@
 
 <br/>
 
-# Elm Format on Save
+
+## Elm Format on Save
 
 **MUST** search `PATH` to find `elm-format`.
 
@@ -26,10 +47,10 @@
 
 **CAN** provide a keyboard shortcut.
 
-
 <br/>
 
-# Elm Make this File
+
+## Elm Make this File
 
 **MUST** search `PATH` to find `elm`.
 
@@ -60,3 +81,20 @@ Fix the errors in those files first!
 
 **MUST NOT** run on save or on key press.
 
+
+<br/>
+
+# Adding Other Specifications
+
+Any future specifications should maintain the following design aesthetic:
+
+**Great performance. Pleasant defaults. Minimal configuration.**
+
+That is currently done by building editor plugins around high quality command line tools. Starting with command line tools encourages implementations that are focused, performant, and well-designed.
+
+So if people want more features in editors, it may make sense to work on command line tools first. Some ideas I have in mind are:
+
+- [`elm-find`](https://github.com/elm/projects/blob/master/elm-find.md)
+- [`elm-refactor`](https://github.com/elm/projects/blob/master/elm-refactor.md)
+
+The benefit of working on command line tools are (1) they can focus on performance, (2) they will not have a permanent memory overhead, (3) they promote consistency across editor plugins, and (4) they can be used even if there is no corresponding editor plugin.
