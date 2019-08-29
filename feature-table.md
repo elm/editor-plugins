@@ -10,13 +10,18 @@ From there, the goal is to bring the performance costs down such that more thing
 These are all made up numbers, but made up based on intuitions from profiling the compiler and measuring heap allocation:
 
 | Feature            | Start Speed      | Incremental Speed | constant RAM overhead | cumulative CPU costs | Battery Implications |
-|--------------------|------------------|-------------------|------------------------|---------------------|----------------------|
-| Compile this file  | ~1s per 100k LOC | <500ms            | 0                      | on keyboad shortcut | minimal              |
-| Format this file   | <1s              | <1s               | 0                      | on keyboad shortcut | minimal              |
-| Format on Save     | <1s              | <1s               | 0                      | on save             | notable              |
-| Jump to Definition | ~2s per 100k LOC | <100ms            | 100MB                  | on key stroke       | significant          |
-| Find Usages        | ~2s per 100k LOC | <100ms            | 100MB                  | on key stroke       | significant          |
-| Bulk Rename        | ~2s per 100k LOC | <100ms            | 100MB                  | on key stroke       | significant          |
+|--------------------|------------------|-------------------|-----------------------|---------------------|----------------------|
+| Compile this file  | ~1s per 100k LOC | <500ms            | 0                     | on keyboad shortcut | minimal              |
+| Format this file   | <1s              | <1s               | 0                     | on keyboad shortcut | minimal              |
+| Format on Save     | <1s              | <1s               | 0                     | on save             | notable              |
+| Jump to Definition | ~2s per 100k LOC | <100ms            | 100MB                 | on key stroke       | significant          |
+| Find Usages        | ~2s per 100k LOC | <100ms            | 100MB                 | on key stroke       | significant          |
+| Bulk Rename        | ~2s per 100k LOC | <100ms            | 100MB                 | on key stroke       | significant          |
+
+Column justification:
+
+- **Constant RAM overhead** is meant to get an idea of how this will look to someone with an older computer. I personally have a 2013 computer with 4GB of RAM, and I think that is still relatively common.
+- **cumulative CPU costs** is a way to help think about battery life. It may be "cheap" to parse a file on key stroke, but it may end up being much more expensive than parsing every file in project over time. So this category is sort of implying the unit of cost is "parsing a file". It may make sense to use some other unit for various plugins.
 
 
 ## Goal
