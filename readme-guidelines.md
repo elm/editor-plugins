@@ -1,7 +1,6 @@
 What follows is a skeleton for a plugin README.md
 
-* * *
-
+```markdown
 # Elm Plugin for X
 
 ## Install
@@ -21,29 +20,29 @@ Follow the directions [here](install.md) to install.
 - [Find Usages](features/find-usages.md) (Ctrl+Shift+U)
 - [Bulk Rename](features/bulk-rename.md) (Ctrl+R)
 - ...
+```
 
 
-* * *
-
-**Guidelines for Install:**
+## Guidelines for Install
 
 This should be the top thing so it is easy to find.
 
 If the installation is through a GUI, it should link to `install.md` that has screenshots and arrows showing exactly how to do it. If it varies by platform, there should be links to `install/mac.md`, `install/linux.md`, and `install/windows.md`.
 
 
-**Guidelines for Features:**
+## Guidelines for Features
 
 Editor configuration is really costly for beginners, but quite cheap for experts. So the main goal here is to get a set of defaults that works for beginners (taking into account high schoolers on hand-me-down laptops) and easy instructions for advanced users who want different trade offs.
 
-**Guidelines for Simple Features:**
+
+### Guidelines for Simple Features
 
 There should be three of these at most. The point here is "if you still have energy after the install instructions, here are three useful things that will 100% work if you try them."
 
 These should not have constant RAM overhead or battery implications.
 
 
-**Guidelines for Advanced Features:**
+### Guidelines for Advanced Features
 
 These should all have an entry in the `features/` directory.
 
