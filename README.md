@@ -11,7 +11,12 @@ Community members have created a bunch of editor plugins for Elm.
 - [Vim](https://github.com/ElmCast/elm-vim)
 - [VS Code](https://github.com/sbrink/vscode-elm)
 
+<br>
+
+* * *
+
 ✨ means this plugin follows [these README guidelines](readme-guidelines.md) for easier installs.
 
 📊 means this plugin has a [perf table](perf-table.md) outlining CPU, RAM, and battery usage of features.
 
+* * *
