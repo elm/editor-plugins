@@ -17,6 +17,6 @@ Community members have created a bunch of editor plugins for Elm.
 
 ✨ means this plugin follows [these README guidelines](readme-guidelines.md) for easier installs.
 
-📊 means this plugin has a [perf table](perf-table.md) outlining CPU, RAM, and battery usage of features.
+📊 means this plugin has a [performance table](performance-table.md) outlining CPU, RAM, and battery usage of features.
 
 * * *
