@@ -2,12 +2,6 @@
 
 Community members have created a bunch of editor plugins for Elm.
 
-- ✨ means this plugin follows [these README guidelines](readme-guidelines.md) for easier installs.
-- 📊 means this plugin has a [perf table](perf-table.md) outlining CPU, RAM, and battery usage of features.
-
-
-## Plugins
-
 - [Atom](https://atom.io/packages/language-elm)
 - [Brackets](https://github.com/lepinay/elm-brackets)
 - [Emacs](https://github.com/jcollard/elm-mode)
@@ -16,4 +10,8 @@ Community members have created a bunch of editor plugins for Elm.
 - [Sublime Text](https://github.com/evancz/elm-syntax-highlighting/) ✨📊
 - [Vim](https://github.com/ElmCast/elm-vim)
 - [VS Code](https://github.com/sbrink/vscode-elm)
+
+✨ means this plugin follows [these README guidelines](readme-guidelines.md) for easier installs.
+
+📊 means this plugin has a [perf table](perf-table.md) outlining CPU, RAM, and battery usage of features.
 
