@@ -41,7 +41,7 @@ I recommend using a `README.md` skeleton like this:
 
 The rest of this document gets into the particulars of each section.
 
-Ultimately you want to be able to look at your README with "beginner mind" and actually find the information you need.
+I usually end up opening my README a bunch of times on GitHub to make sure it is possible to scan through. I often find myself adding `<br>` and changing things around because it looks like something I would not read. Typesetting is a big factor!
 
 
 <br>
