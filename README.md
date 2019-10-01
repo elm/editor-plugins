@@ -1,25 +1,19 @@
 # Editor Plugins for Elm
 
-Elm users should have a consistent and pleasant experience across a broad range of editors.
+Community members have created a bunch of editor plugins for Elm.
 
-A core team member has reviewed each of the plugins listed here to make sure it matches [the specifications](specifications.md) and has good performance.
+- ✨ means this plugin follows [these README guidelines](readme-guidelines.md) for easier installs.
+- 📊 means this plugin has a [perf table](perf-table.md) outlining CPU, RAM, and battery usage of features.
 
-**If you are new to Elm**, just start with the **Elm Syntax Highlighting** plugin.
-
-**If you do not have a code editor yet**, I like using [Sublime Text](https://www.sublimetext.com/) with [these settings](https://gist.github.com/evancz/1eef86cc99632e15a8f4d793bbda3d1f).
-
-<br/>
 
 ## Plugins
 
-**Sublime Text**
+- [Atom](https://atom.io/packages/language-elm)
+- [Brackets](https://github.com/lepinay/elm-brackets)
+- [Emacs](https://github.com/jcollard/elm-mode)
+- [IntelliJ](https://github.com/klazuka/intellij-elm)
+- [Light Table](https://github.com/rundis/elm-light)
+- [Sublime Text](https://github.com/evancz/elm-syntax-highlighting/) ✨📊
+- [Vim](https://github.com/ElmCast/elm-vim)
+- [VS Code](https://github.com/sbrink/vscode-elm)
 
-  - [Elm Syntax Highlighting](https://github.com/evancz/elm-syntax-highlighting/)
-  - [Elm Format on Save](https://github.com/evancz/elm-format-on-save)
-
-
-<br/>
-
-## Adding Plugins to the List
-
-The goal of this project is to promote consistency and quality in Elm editor plugins, so plugins must meet [these specifications](specifications.md) to be listed here. Once you have a plugin that meets the specifications, open a PR here adding it to the list above.
