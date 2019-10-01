@@ -84,11 +84,7 @@ Newcomers are mostly just trying to get a file compiling on their computer. They
 
 ## Guidelines for "Additional Features"
 
-These should look basically the same as the "Highlighted Features" except that there are more of them.
-
-Each feature should have an entry in the `features/` directory.
-
-Those files would be something like this:
+These should look basically the same as the "Highlighted Features" except that there are more of them. Each feature should have an entry in the `features/` directory. Those files would be something like this:
 
 ```markdown
 # Format On Save
@@ -105,7 +101,11 @@ This feature may lead to slight delays (<500ms) when saving.
 
 ## Enable
 
-... instructions ...
+Go to **Sublime Text -> Preferences -> Package Settings -> Elm Format on Save -> Settings**
+
+You will see two panels. The left is all the defaults and the right is your custom overrides. So in the right panel, you can override the default settings with something like:
+
+...
 
 
 <br>
@@ -116,11 +116,13 @@ This feature may lead to slight delays (<500ms) when saving.
 
 ```
 
-The first line is a short description of the feature. Avoid wrapping to a second line!
+**The first line** is a short description of the feature. Avoid wrapping to a second line!
 
-The second line is a description of who wants it and why.
+**The second line** is a description of who wants it and why.
 
-The third line is a performance disclosure. It explicitly describes any RAM overhead or battery implications for people who care about that sort of thing. "Enabling this feature will keep about 10MB in memory per file" or "Enabling this feature will do work on each keystroke, so it will shorten battery life." These should be as quantitative as possible, matching up with your [perf table](perf-table.md).
+**The third line** is a performance disclosure. It explicitly describes any RAM overhead or battery implications for people who care about that sort of thing. "Enabling this feature will keep about 10MB in memory per file" or "Enabling this feature will do work on each keystroke, so it will shorten battery life." These should be as quantitative as possible, matching up with your [perf table](perf-table.md).
+
+Check out the [elm-format-on-save](https://github.com/evancz/elm-format-on-save) plugin for a baseline of what it looks like to have enable/disable settings. People may not need screenshots of everything at this phase, but the convention of bolding things like **Sublime Text -> Preferences** is still helpful.
 
 
 <br>
