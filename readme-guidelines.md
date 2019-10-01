@@ -1,13 +1,14 @@
 # README Guidelines
 
-It can be really difficult to get an editor set up.
+It can be really difficult and frustrating to get an editor set up.
 
 These guidelines aim to help make this process as easy as possible.
 
+<br>
 
 ## README Skeleton
 
-We recommend using a `README.md` skeleton like this:
+I recommend using a `README.md` skeleton like this:
 
 ```markdown
 # Elm Plugin for X
@@ -41,6 +42,8 @@ We recommend using a `README.md` skeleton like this:
 The rest of this document gets into the particulars of each section. Which details are important? Why are they important?
 
 
+<br>
+
 ## Guidelines for "Install"
 
 **Location:** This is right at the top so it is easy to find.
@@ -64,6 +67,8 @@ Having the images be specific to the operating system makes people a lot more co
 The bold text in those directions is also important. Emphasize the essentials of each image in text just in case!
 
 
+<br>
+
 ## Guidelines for "Highlighted Features"
 
 **Purpose:** Avoid overwhelming newcomers with features.
@@ -85,7 +90,9 @@ Newcomers are mostly just trying to get a file compiling on their computer. They
 Newcomers may not be super familiar with all Elm features yet (e.g. types) so try to **pick things that do not rely on knowing a bunch of things already**.
 
 
-### Guidelines for "Additional Features"
+<br>
+
+## Guidelines for "Additional Features"
 
 These should look basically the same as the "Highlighted Features" except that there are more of them.
 
@@ -126,6 +133,7 @@ The second line is a description of who wants it and why.
 The third line is a performance disclosure. It explicitly describes any RAM overhead or battery implications for people who care about that sort of thing. "Enabling this feature will keep about 10MB in memory per file" or "Enabling this feature will do work on each keystroke, so it will shorten battery life." These should be as quantitative as possible, matching up with your [perf table](perf-table.md).
 
 
+<br>
 
 ## Other Content?
 

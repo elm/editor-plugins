@@ -3,11 +3,15 @@
 Editor plugins may choose to have a file named `performance-table.md` that outlines the performance costs of various features.
 
 
+<br>
+
 ## Goals
 
 1. Learn how different editors implement features.
 2. Try to think of ways to bring down costs.
 
+
+<br>
 
 ## Example
 
@@ -25,6 +29,8 @@ When you create a `performance-table.md` for your plugin, it should be a table s
 These numbers just for example. They are based on intuitions from profiling the compiler and measuring heap allocations.
 
 
+<br>
+
 ## Motivation
 
 Not everyone has a great computer, and they may want to enable/disable features depending on if they will use too much RAM or decrease battery life.
@@ -38,6 +44,8 @@ My computer happens to have 4GB of RAM and two cores actually, but the idea here
 
 Making these costs transparent will help these folks!
 
+
+<br>
 
 ## Case Study
 
