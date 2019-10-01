@@ -39,20 +39,20 @@ I recommend using a `README.md` skeleton like this:
 - ...
 ```
 
-The rest of this document gets into the particulars of each section. Which details are important? Why are they important?
+The rest of this document gets into the particulars of each section.
+
+Ultimately you want to be able to look at your README with "beginner mind" and actually find the information you need.
 
 
 <br>
 
 ## Guidelines for "Install"
 
-**Location:** This is right at the top so it is easy to find.
+**Put this above everything else so it is easy to find.**
 
-Many editors come with a bunch of pre-installed plugins, so people may have been using the editor for years without needing to know how install new plugins.
+Many editors come with a bunch of pre-installed plugins, so people may have been using the editor for years without needing to know how install new plugins. This means this is the most important information in the whole README because it blocks people from using any of the features!
 
-This is the most important information in the whole README because it blocks people from using any of the features.
-
-**Link:** The link should go to documents that explain all the tricky corner cases.
+**The links should go to documents that explain all the tricky corner cases.**
 
 Use the install instructions for the Sublime Text as a model:
 
@@ -60,34 +60,24 @@ Use the install instructions for the Sublime Text as a model:
 - [Linux](https://github.com/evancz/elm-syntax-highlighting/blob/master/install/linux.md)
 - [Windows](https://github.com/evancz/elm-syntax-highlighting/blob/master/install/windows.md)
 
-It is possible to do all this with keyboard shortcuts, but I found that the directions were easiest to follow when they just used big images with arrows like this.
-
-Having the images be specific to the operating system makes people a lot more confident that they are doing things correctly.
-
-The bold text in those directions is also important. Emphasize the essentials of each image in text just in case!
+It is possible to do all this with keyboard shortcuts, but I found that the directions were easiest to follow when they just used **images with big yellow arrows** like this. Having the images be specific to the operating system makes people a lot more confident that they are doing things correctly. The **bold text** in those directions is also important. Emphasize the essentials of each image in text just in case!
 
 
 <br>
 
 ## Guidelines for "Highlighted Features"
 
-**Purpose:** Avoid overwhelming newcomers with features.
+**The goal is to avoid overwhelming newcomers with features.**
 
-It can be overwhelming to see a bunch of possibilities all at once.
+It can be overwhelming to see a bunch of possibilities all at once. Having fewer bullets somehow makes them easier to understand.
 
-Having fewer bullets somehow makes them easier to understand.
+**No more than three very short bullets.**
 
-**Structure:** No more than three very short bullets.
+Bullets that fit on one line are way easier to read, particularly if they are under five words. Start with a link to a file explaining the feature in more detail. (Guidelines for these files are in the next section.) Then have the keyboard shortcut. Specify explicitly if the keyboard shortcut is different between Mac, Linux, and Windows.
 
-Bullets that fit on one line are way easier to read, particularly if they are under five words.
+**Pick keyboard shortcuts that a newcomer would want.**
 
-Start with a link to a file explaining the feature in more detail. (Guidelines for these files are in the next section.) Then have the keyboard shortcut. Specify explicitly if the keyboard shortcut is different between Mac, Linux, and Windows.
-
-**Selection:** Pick keyboard shortcuts that a newcomer would want.
-
-Newcomers are mostly just trying to get a file compiling on their computer. They are often stressed out because they have recently had to install software, so **pick things that do not require more installation**.
-
-Newcomers may not be super familiar with all Elm features yet (e.g. types) so try to **pick things that do not rely on knowing a bunch of things already**.
+Newcomers are mostly just trying to get a file compiling on their computer. They are often stressed out because they have recently had to install software, so **pick things that do not require more installation**. Newcomers may not be super familiar with all Elm features yet (e.g. types) so try to **pick things that do not rely on knowing a bunch of things already**.
 
 
 <br>
