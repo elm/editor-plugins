@@ -15,7 +15,7 @@ Editor plugins may choose to have a file named `performance-table.md` that outli
 
 ## Example
 
-When you create a `performance-table.md` for your plugin, it should be a table somithing like this:
+When you create a `performance-table.md` for your plugin, it should be a table something like this:
 
 | Feature            | Start Speed      | Incremental Speed | Constant RAM Overhead | Cumulative CPU Costs | Battery Implications |
 |--------------------|------------------|-------------------|-----------------------|----------------------|----------------------|
@@ -26,7 +26,9 @@ When you create a `performance-table.md` for your plugin, it should be a table s
 | Find Usages        | ↑                | ↑                 | ↑                     | ↑                    | ↑                    |
 | Bulk Rename        | ↑                | ↑                 | ↑                     | ↑                    | ↑                    |
 
-These numbers just for example. They are based on intuitions from profiling the compiler and measuring heap allocations.
+These numbers are just for example. They are based on intuitions from profiling the compiler and measuring heap allocations.
+
+It may be nice to summarize this information above the table with a note like "If your computer has less than 4GB of RAM or fewer than 4 CPU cores, you may be better served by a lighter-weight text editor like X."
 
 
 <br>
@@ -42,7 +44,7 @@ Based on this [Firefox Public Data Report](https://data.firefox.com/dashboard/ha
 
 My computer happens to have 4GB of RAM and two cores actually, but the idea here is that many people getting started with Elm are not professional developers. They may be working from a computer lab at school or from a laptop they got to work on group assignments and receive email.
 
-Making these costs transparent will help these folks!
+I think making these costs transparent will ultimately make things nicer for these folks.
 
 
 <br>
