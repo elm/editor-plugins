@@ -3,7 +3,6 @@
 Community members have created a bunch of editor plugins for Elm.
 
 - [Atom](https://atom.io/packages/language-elm)
-- [Brackets](https://github.com/lepinay/elm-brackets)
 - [Emacs](https://github.com/jcollard/elm-mode)
 - [IntelliJ](https://github.com/klazuka/intellij-elm) ✨
 - [Light Table](https://github.com/rundis/elm-light)
