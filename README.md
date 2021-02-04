@@ -9,7 +9,7 @@ Community members have created a bunch of editor plugins for Elm.
 - [Light Table](https://github.com/rundis/elm-light)
 - [Sublime Text](https://github.com/evancz/elm-syntax-highlighting/) ✨📊
 - [Vim](https://github.com/elm-tooling/elm-vim)
-- [VS Code](https://github.com/sbrink/vscode-elm)
+- [VS Code](https://github.com/elm-tooling/elm-language-client-vscode)
 
 <br>
 
