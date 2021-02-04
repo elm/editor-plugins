@@ -10,6 +10,8 @@ Community members have created a bunch of editor plugins for Elm.
 - [Vim](https://github.com/elm-tooling/elm-vim)
 - [VS Code](https://github.com/elm-tooling/elm-language-client-vscode)
 
+Syntax highlighting is available by default in some editors (like Vim 8.2 patch 929 and above) so see what it looks like in your editor before feeling like you need to install a bunch of stuff.
+
 <br>
 
 * * *
